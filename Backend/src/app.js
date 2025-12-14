@@ -5,7 +5,7 @@ const cors = require('cors')
 const aiRoutes = require('./routes/aiRoutes');
 
 app.use(cors({
-    origin: 'https://ai-code-reviewer-frontend-8vn7.onrender.com/',
+    origin: 'https://ai-code-reviewer-frontend-8vn7.onrender.com',
     credentials: true
 }))
 app.use(express.json());
